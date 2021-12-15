@@ -1,0 +1,13 @@
+mat-toolbar {
+  position: relative;
+  display: flex;
+}
+
+.logo-container {
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  font-size: 2rem;
+}
