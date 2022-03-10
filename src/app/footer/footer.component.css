@@ -1,0 +1,128 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+.footer-section {
+  padding-top: 50px;
+  background: #000;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.footer-top-container,
+.footer-bottom-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-description p {
+  padding: 10px 0;
+  text-decoration: underline;
+  cursor: pointer;
+  font-family: 'Cardo',
+  serif;
+}
+
+.contact-description span {
+  padding-right: 8px;
+}
+
+.links a {
+  color: rgba(255, 255, 255, 0.85);
+  padding: 10px 0;
+  font-family: 'Cardo',
+  serif;
+}
+
+.links a:hover {
+  color: #00bcd4;
+}
+
+.copyright-container,
+.newsletter-container,
+.contact-container,
+.links-container {
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-container {
+  padding-top: 45px;
+}
+
+.social-icons a i {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  padding: 10px 10px 10px 0;
+}
+
+.social-icons a i:hover {
+  color: #00bcd4;
+}
+
+.copyright-links ul {
+  display: inline-flex;
+  padding-left: 0;
+  justify-content: flex-start;
+}
+
+.copyright-links ul li {
+  list-style-type: none;
+}
+
+.copyright-links ul li a {
+  color: rgba(255, 255, 255, 0.85);
+  padding: 10px 10px 10px 0px;
+  font-family: 'Cardo',
+  serif;
+}
+
+.copyright-header span i {
+  padding-right: 8px;
+}
+
+.newsletter-form input {
+  font-family: 'Cardo',
+  serif;
+  width: 50%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.85);
+  background-color: transparent;
+  color: #fff;
+}
+
+.button-container {
+  display: inline-flex;
+}
+
+.newsletter-button {
+  background-color: #00bcd4;
+  color: rgba(255, 255, 255, 0.85);
+  width: 100%;
+  margin-left: 8px;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.85);
+  text-transform: uppercase;
+  font-family: 'Alegreya',
+  serif;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.footer-section h3 {
+  font-family: 'Gowun Batang',
+  serif;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.footer-bottom-container p {
+  font-family: 'Cardo',
+  serif;
+}
+
+.copyright-description,
+.newsletter-description {
+  margin-top: 20px;
+}
+

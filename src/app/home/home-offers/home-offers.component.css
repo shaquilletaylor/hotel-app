@@ -1,0 +1,74 @@
+.offers-section {
+  padding-top: 50px;
+}
+
+.offers-subheader-container {
+  width: 60%;
+  margin: auto;
+}
+
+.offers-header {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Gowun Batang', serif;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.offers-subheader {
+  text-align: center;
+  justify-content: center;
+  font-family: 'Cardo', serif;
+}
+
+.offers-subheader a {
+  color: #000;
+}
+
+.offers-subheader a:hover {
+  color: #00bcd4;
+}
+
+.offers-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.offers-card {
+  margin: 40px;
+}
+
+.offers-card mat-card {
+  max-width: 500px;
+}
+
+.offer mat-card-image {
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-image {
+  height: 450px;
+}
+
+.card-header {
+  font-family: 'Playfair Display', serif;
+}
+
+.card-content {
+  font-family: 'Cardo', serif;
+}
+
+.offer mat-card-actions {
+  padding-bottom: 10px;
+}
+
+.offer-button {
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Besley', serif;
+}

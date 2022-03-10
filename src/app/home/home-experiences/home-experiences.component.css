@@ -1,0 +1,118 @@
+.experiences-section {
+  padding-top: 50px;
+}
+
+.experiences-header {
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Gowun Batang',
+    serif;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.experiences-subheader-container {
+  width: 60%;
+  margin: auto;
+}
+
+.experiences-subheader {
+  text-align: center;
+  justify-content: center;
+  font-family: 'Cardo', serif;
+}
+
+.experiences-subheader a {
+  color: #000;
+}
+
+.experiences-subheader a:hover {
+  color: #00bcd4;
+}
+
+.experiences-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.experiences-display {
+  width: 500px;
+  margin: 10px 8px 10px 8px;
+}
+
+.experiences-display mat-card {
+  height: 300px;
+  position: relative;
+  text-align: center;
+  max-width: 500px;
+}
+
+.experiences-display mat-card-header h2 {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 34px;
+  background: rgba(0, 0, 0, 0.60);
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Gowun Batang',
+    serif;
+  letter-spacing: 1px;
+}
+
+.beach-party {
+  background: url('https://images.unsplash.com/photo-1560359614-870d1a7ea91d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.jetskis {
+  background: url('https://images.pexels.com/photos/6636984/pexels-photo-6636984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.bars {
+  background: url('https://images.pexels.com/photos/1058277/pexels-photo-1058277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.golf-courses {
+  background: url('https://images.unsplash.com/photo-1590952489247-500b0430a4ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80') center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.shopping {
+  background: url('https://images.unsplash.com/photo-1481437156560-3205f6a55735?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1195&q=80') center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.scuba-diving {
+  background: url('https://images.pexels.com/photos/1645028/pexels-photo-1645028.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.experiences-display mat-card-actions {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  min-height: 40px;
+  min-width: 141px;
+  font-family: 'Besley',
+    serif;
+}

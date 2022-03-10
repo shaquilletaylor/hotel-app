@@ -4,6 +4,7 @@
   background-size: cover;
   object-fit: cover;
   position: relative;
+  background-color: #00bcd4;
 }
 
 .book-container {
@@ -79,6 +80,7 @@
     height: 100vh;
   }
 } */
+
 
 @media all and (max-width: 599px) {
   .content-container .title {
